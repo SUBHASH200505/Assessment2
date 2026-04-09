@@ -6,7 +6,7 @@ import io.restassured.RestAssured;
 
 public class AUTOMATION {
 	final String BASE_URL = "https://automationexercise.com/api";
-	String update = "{ \"email\": \"john.doe@example.com\", \"birth_date\": \"30\", \"birth_month\": \"11\", \"birth_year\": \"2004\", \"zipcode\": \"600099\" }";
+	String update = "{ \"email\": \"rockstar@example.com\", \"birth_date\": \"20\", \"birth_month\": \"12\", \"birth_year\": \"2005\", \"zipcode\": \"600066\" }";
 	
 	@Test
 	void createUserAccount() {
