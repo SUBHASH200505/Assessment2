@@ -12,8 +12,8 @@ public class AddProject {
     public void addProjectTest() {
 
         Ninza json_data = new Ninza();
-        json_data.setCreatedBy("MoitheGreat");
-        json_data.setProjectName("test321020007");
+        json_data.setCreatedBy("helloworld");
+        json_data.setProjectName("firstproject");
         json_data.setStatus("Completed");
         json_data.setTeamSize(0);
 
