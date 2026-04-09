@@ -16,7 +16,7 @@ public class LotOfFun {
 //	@Test
 	void postPet(){
 		RestAssured.given()
-			.formParam("name","kamal")
+			.formParam("name","rockstar")
 			.pathParam("petID", ID)
 			
 			.when()
@@ -34,7 +34,7 @@ public class LotOfFun {
 					+ "    \"id\": 0,\r\n"
 					+ "    \"name\": \"string\"\r\n"
 					+ "  },\r\n"
-					+ "  \"name\": \"kamala\",\r\n"
+					+ "  \"name\": \"rock\",\r\n"
 					+ "  \"photoUrls\": [\r\n"
 					+ "    \"string\"\r\n"
 					+ "  ],\r\n"
