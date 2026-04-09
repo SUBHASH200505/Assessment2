@@ -11,8 +11,8 @@ public class PostValidationTest {
         RestAssured.baseURI = "http://49.249.28.218:8091";
 
         String body = "{\n" +
-                "  \"createdBy\": \"Sabarinathan\",\n" +
-                "  \"projectName\": \"task2Project\",\n" +
+                "  \"createdBy\": \"rockstar\",\n" +
+                "  \"projectName\": \"hello\",\n" +
                 "  \"status\": \"Created\",\n" +
                 "  \"teamSize\": 0\n" +
                 "}";
