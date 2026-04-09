@@ -9,14 +9,14 @@ public class DigestAuth {
 		
 		// PRE CONDITION
 		given()
-			.pathParam("qop", "auth")
-			.pathParam("user", "admin")
+			.pathParam("admin", "auth")
+			.pathParam("user", "admin333")
 			.pathParam("passwd", "password123")
 			.auth().digest("admin", "password123")
 		        
 		// HTTP METHOD
 		.when()
-			.get("https://httpbin.org/digest-auth/{qop}/{user}/{passwd}")
+			.get("https://httpbin.org/digest-auth/{admin}/{user}/{passwd}")
 		
 		// RESPONSE
 		.then()
