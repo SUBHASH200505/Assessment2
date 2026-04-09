@@ -10,7 +10,7 @@ public class BearerAuth {
 		
 		// PRE CONDITION
 		given()
-			.auth().oauth2("baby boy")
+			.auth().oauth2("rock star")
 		        
 		// HTTP METHOD
 		.when()
