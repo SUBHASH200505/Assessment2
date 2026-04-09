@@ -12,8 +12,8 @@ public class CreateUserWithValidation {
         RestAssured.baseURI = "http://49.249.28.218:8091";
 
         String body = "{\n" +
-                "  \"createdBy\": \"Sabarinathan\",\n" +
-                "  \"projectName\": \"ValidateProject\",\n" +
+                "  \"createdBy\": \"ram\",\n" +
+                "  \"projectName\": \"hello\",\n" +
                 "  \"status\": \"Created\",\n" +
                 "  \"teamSize\": 6\n" +
                 "}";
