@@ -7,7 +7,7 @@ public class CreateEmployee {
 	public static void main(String[] args) {
 		RestAssured.given()
 		.contentType("application/json")
-		.body("{\"name\":\"test\",\"salary\":\"123\",\"age\":\"23\"}")
+		.body("{\"name\":\"subhash\",\"salary\":\"30000\",\"age\":\"13\"}")
 		
 		.when()
 			.post("https://dummy.restapiexample.com/api/v1/create")
