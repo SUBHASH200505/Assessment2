@@ -7,7 +7,7 @@ public class UpdateByID {
 	public static void main(String[] args) {
 		RestAssured.given()
 		.contentType("application/json")
-		.body("{\"name\":\"test\",\"salary\":\"123\",\"age\":\"23\"}")
+		.body("{\"name\":\"rock\",\"salary\":\"20000\",\"age\":\"10\"}")
 		
 		.when()
 			.put("https://dummy.restapiexample.com/api/v1/update/7")
